@@ -1,0 +1,6 @@
+plugins { id 'com.android.application' }
+android {
+ namespace 'br.com.edufiretv.launcher'
+ compileSdk 35
+ defaultConfig { applicationId 'br.com.edufiretv.launcher'; minSdk 25; targetSdk 28; versionCode 8; versionName '0.8' }
+}
