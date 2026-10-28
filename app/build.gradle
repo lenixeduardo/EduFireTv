@@ -1,6 +1,7 @@
 plugins { id 'com.android.application' }
+dependencies { implementation 'com.google.zxing:core:3.5.3' }
 android {
  namespace 'br.com.edufiretv.launcher'
  compileSdk 35
- defaultConfig { applicationId 'br.com.edufiretv.launcher'; minSdk 25; targetSdk 28; versionCode 8; versionName '0.8' }
+ defaultConfig { applicationId 'br.com.edufiretv.launcher'; minSdk 25; targetSdk 28; versionCode 9; versionName '0.9' }
 }
